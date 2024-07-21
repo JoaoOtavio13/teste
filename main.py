@@ -1,8 +1,8 @@
 class Automóvel:
-    def __init__(self,ligar,desligar,potencia,motor):
+    def __init__(self,ligar,_desligar,__potencia,motor):
         self.ligar=''
-        self.desligar=''
-        self.potencia=''
+        self._desligar=''
+        self.__potencia=''
         self.motor=''
 
     def ligando(self):

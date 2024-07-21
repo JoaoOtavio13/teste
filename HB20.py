@@ -1,8 +1,8 @@
 from main import Automóvel
 
 class HB20(Automóvel):
-    def __init__(self, ligar, desligar, potencia, motor, modelo, marca):
-        Automóvel.__init__(ligar, desligar, potencia, motor)
+    def __init__(self, ligar, _desligar, __potencia, motor, modelo, marca):
+        Automóvel.__init__(ligar, _desligar, __potencia, motor)
         self.modelo=''
         self.marca=''
 
